@@ -1,63 +1,63 @@
-
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>3DV 2020 Online Tutorial on 3D Point Cloud Reconstruction and Segmentation</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>3DV 2020 Online Tutorial on 3D Point Cloud Reconstruction and Segmentation</title>
 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-  <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
-  <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
 </head>
 
 <body>
 
 <div class="container">
-  <table border="0" align="center">
-    <tr>
-      <td width="700" align="center" valign="middle"><h3>3DV 2020 Tutorial on</h3>
-      <span class="title">3D Point Cloud Reconstruction and Segmentation</span></td>
-    </tr>
-    <tr>
-        <td colspan="3" align="center"><h3>Anywhere on earth on November 28, 2020<br><b>Tutorial videos and slides will be released after the online events.</b></h3></td>
-    </tr>
-  </table>
-  <p><img src="./imgs/3DV2020.png" width="1000" align="middle" /></p>
+    <table border="0" align="center">
+        <tr>
+            <td width="700" align="center" valign="middle"><h3>3DV 2020 Tutorial on</h3>
+                <span class="title">3D Point Cloud Reconstruction and Segmentation</span></td>
+        </tr>
+        <tr>
+            <td colspan="3" align="center"><h3>Anywhere on earth on November 28, 2020<br><b>Tutorial videos and slides
+                will be released after the online events.</b></h3></td>
+        </tr>
+    </table>
+    <p><img src="./imgs/3DV2020.png" width="1000" align="middle"/></p>
 </div>
 
 </br>
 
 <div class="container">
-  <h2>Speakers</h2>
+    <h2>Speakers</h2>
     <div>
-      <div class="instructor">
-          <a href="http://yulanguo.me/" >
-        <div class="instructorphoto"><img src="./imgs/yulan.jpg"></div>
-        <div>Yulan Guo<br>SYSU & NUDT</div>
-        </a>
-      </div>
+        <div class="instructor">
+            <a href="http://yulanguo.me/">
+                <div class="instructorphoto"><img src="./imgs/yulan.jpg"></div>
+                <div>Yulan Guo<br>SYSU & NUDT</div>
+            </a>
+        </div>
 
-      <div class="instructor">
-        <a href="http://www.ronnieclark.co.uk/">
-            <div class="instructorphoto"><img src="./imgs/ronnie_bw.png"></div>
-            <div>Ronald Clark<br>Imperial College London</div>
-        </a>
-      </div>
+        <div class="instructor">
+            <a href="http://www.ronnieclark.co.uk/">
+                <div class="instructorphoto"><img src="./imgs/ronnie_bw.png"></div>
+                <div>Ronald Clark<br>Imperial College London</div>
+            </a>
+        </div>
 
-      <div class="instructor">
-        <a href="https://yang7879.github.io/">
-            <div class="instructorphoto"><img src="./imgs/bo.jpg"></div>
-            <div>Bo Yang<br>Oxford & PolyU</div>
-        </a>
-      </div>
+        <div class="instructor">
+            <a href="https://yang7879.github.io/">
+                <div class="instructorphoto"><img src="./imgs/bo.jpg"></div>
+                <div>Bo Yang<br>Oxford & PolyU</div>
+            </a>
+        </div>
 
-      <div class="instructor">
-        <a href="https://qingyonghu.github.io/">
-            <div class="instructorphoto"><img src="./imgs/qingyong.jpg"></div>
-            <div>Qingyong Hu<br>Oxford</div>
-        </a>
-      </div>
+        <div class="instructor">
+            <a href="https://qingyonghu.github.io/">
+                <div class="instructorphoto"><img src="./imgs/qingyong.jpg"></div>
+                <div>Qingyong Hu<br>Oxford</div>
+            </a>
+        </div>
 
     </div>
     <p></p>
@@ -66,156 +66,176 @@
 </br>
 
 <div class="container">
-  <h2>Overview</h2>
+    <h2>Overview</h2>
     <div class="overview">
-<p>
-With the rapid development of point-cloud acquisition techniques (<I>e.g.</I>, Microsoft Kinect) and computing
-devices, 3D data (point clouds, depth images, meshes) processing has become a rapidly growing research area in
-computer vision, pattern recognition and computer graphics. Extensive investigations have been conducted on
-3D related topics, such as 3D modeling, 3D scene reconstruction/understanding,
-3D object recognition, 3D face recognition, and 3D animation.
-In this tutorial, we will mainly focus on point cloud reconstruction and segmentation.
-</p>
+        <p>
+            With the rapid development of point-cloud acquisition techniques (<I>e.g.</I>, Microsoft Kinect) and
+            computing
+            devices, 3D data (point clouds, depth images, meshes) processing has become a rapidly growing research area
+            in
+            computer vision, pattern recognition and computer graphics. Extensive investigations have been conducted on
+            3D related topics, such as 3D modeling, 3D scene reconstruction/understanding,
+            3D object recognition, 3D face recognition, and 3D animation.
+            In this tutorial, we will mainly focus on point cloud reconstruction and segmentation.
+        </p>
 
-<p>
-Existing 3D point cloud segmentation methods can be broadly divided into two categories based on the
-segmentation granularity, <I>i.e.</I>, semantic segmentation and instance segmentation methods.
-Due to the unique properties (<I>i.e.</I>, unstructured, irregular, and orderless) of 3D point clouds,
-it is still highly challenging to achieve fast and robust segmentation of 3D point clouds.
-Recently, a large number of 3D point cloud segmentation algorithms have been proposed in literature.
-The proposed tutorial will therefore present a comprehensive review and analysis of the state-of-the-art 3D
-segmentation algorithms. The tutorial will also provide extensive performance evaluation results of the
-state-of-the-art algorithms on several benchmark datasets, along with insightful discussions and analyses.
-Moreover, a number of interesting 3D related applications will be introduced in the tutorial.
-Finally, several directions for future work will be discussed.
+        <p>
+            Existing 3D point cloud segmentation methods can be broadly divided into two categories based on the
+            segmentation granularity, <I>i.e.</I>, semantic segmentation and instance segmentation methods.
+            Due to the unique properties (<I>i.e.</I>, unstructured, irregular, and orderless) of 3D point clouds,
+            it is still highly challenging to achieve fast and robust segmentation of 3D point clouds.
+            Recently, a large number of 3D point cloud segmentation algorithms have been proposed in literature.
+            The proposed tutorial will therefore present a comprehensive review and analysis of the state-of-the-art 3D
+            segmentation algorithms. The tutorial will also provide extensive performance evaluation results of the
+            state-of-the-art algorithms on several benchmark datasets, along with insightful discussions and analyses.
+            Moreover, a number of interesting 3D related applications will be introduced in the tutorial.
+            Finally, several directions for future work will be discussed.
 
-</p>
+        </p>
 
-<p>
-The main objective of the tutorial is to stimulate <I>communication between researchers</I> from different
-areas (including computer vision, computer graphics, and machine learning) and from different sectors
-(<I>e.g.</I>, academia and industry). Particularly, this tutorial will bridge the gap between different
-communities by presenting most existing 3D point cloud reconstruction and segmentation pipelines
-in a unified framework.
-</p>
+        <p>
+            The main objective of the tutorial is to stimulate <I>communication between researchers</I> from different
+            areas (including computer vision, computer graphics, and machine learning) and from different sectors
+            (<I>e.g.</I>, academia and industry). Particularly, this tutorial will bridge the gap between different
+            communities by presenting most existing 3D point cloud reconstruction and segmentation pipelines
+            in a unified framework.
+        </p>
     </div>
 </div>
 
 </br>
 
 <div class="container">
-  <h2>Schedule</h2>
+    <h2>Schedule</h2>
     <div class="schedule">
-            <table style="width:100%", border="2">
-      <tr>
-        <th width="15%", align="left"> Time (GMT) </th>
-        <th width="15%", align="left"> Time (EST) </th>
-        <th width="15%", align="left"> Time (Tokyo) </th>
-        <th width="55%", align="left"> Topic </th>
-      </tr>
+        <table style="width:100%" , border="2">
+            <tr>
+                <th width="12%" , align="left"> Time (GMT)</th>
+                <th width="12%" , align="left"> Time (EST)</th>
+                <th width="12%" , align="left"> Time (Beijing)</th>
+                <th width="12%" , align="left"> Time (Tokyo)</th>
+                <th width="52%" , align="left"> Topic</th>
+            </tr>
 
-      <tr>
+            <tr>
 
-        <td> 08:00-08:05 </td>
-        <td> 03:00-03:05 </td>
-        <td> 17:00-17:05 </td>
-        <td> Welcome and Introduction </td>
-      </tr>
+                <td> 08:00-08:05</td>
+                <td> 04:00-04:05</td>
+                <td> 16:00-16:05</td>
+                <td> 17:00-17:05</td>
 
-      <tr>
-        <td> 08:05-08:50 </td>
-        <td> 03:05-03:50 </td>
-        <td> 17:05-17:50 </td>
-        <br>
-        <td>  <b> Background & Applications </b>
-        <br>
-            Presenter: Dr. Yulan Guo
-            <ul>
-            <li> 3D data acquisition </li>
-            <li> 3D data representation</li>
-            <li> Point cloud learning</li>
-            <li> Applications</li>
-            </ul>
-        </td>
-      </tr>
-      <tr>
-        <td> 08:50-09:35 </td>
-        <td> 03:50-04:35 </td>
-        <td> 17:50-18:35 </td>
+                <td> Welcome and Introduction</td>
+            </tr>
 
-        <td>  <b> 3D Point Cloud Reconstruction </b>
-        <br>
-            Presenter: Dr. Ronald Clark
-            <ul>
-            <li> Dense point clouds as a map representation </li>
-            <li> Basics of SLAM and multi-view 3D reconstruction</li>
-            <li> State-of-the-art methods</li>
-            <li> Open challenges and new directions</li>
-            </ul>
-        </td>
+            <tr>
+                <td> 08:05-08:50</td>
+                <td> 04:05-04:50</td>
+                <td> 16:00-16:05</td>
+                <td> 17:05-17:50</td>
 
-      </tr>
-      <tr>
-        <td> 09:35-10:20 </td>
-        <td> 04:35-05:20 </td>
-        <td> 18:35-19:20 </td>
+                <br>
+                <td><b> Background & Applications </b>
+                    <br>
+                    Presenter: Dr. Yulan Guo
+                    <ul>
+                        <li> 3D data acquisition</li>
+                        <li> 3D data representation</li>
+                        <li> Point cloud learning</li>
+                        <li> Applications</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td> 08:50-09:35</td>
+                <td> 04:50-05:35</td>
+                <td> 16:50-17:35</td>
+                <td> 17:50-18:35</td>
 
-        <td>  <b> 3D Point Cloud Semantic Segmentation </b>
-        <br>
-            Presenter: Mr. Qingyong Hu
-            <ul>
-            <li> Main challenges of 3D point cloud semantic segmentation </li>
-            <li> How to perform 3D point cloud semantic segmentation</li>
-            <li> Taxonomy: discretization, point and hybrid based algorithms</li>
-            </ul>
-        </td>
-      </tr>
-      <tr>
-        <td> 10:20-11:05 </td>
-        <td> 05:20-06:05 </td>
-        <td> 19:20-20:05 </td>
 
-        <td>  <b> 3D Point Cloud Instance Segmentation </b>
-        <br>
-            Presenter: Dr. Bo Yang
-            <ul>
-            <li> Why and what is 3D point cloud instance segmentation </li>
-            <li> How to perform 3D point cloud instance segmentation</li>
-            <li> Taxonomy: proposal-based and proposal free algorithms</li>
-            <li> State-of-the-art algorithms</li>
-            <li> Performance evaluation</li>
-            <li> Summary and discussion</li>
-            </ul>
-        </td>
-      </tr>
-      <tr>
-        <td> 11:05-11:50 </td>
-        <td> 06:05-06:50 </td>
-        <td> 20:05-20:50 </td>
+                <td><b> 3D Point Cloud Reconstruction </b>
+                    <br>
+                    Presenter: Dr. Ronald Clark
+                    <ul>
+                        <li> Dense point clouds as a map representation</li>
+                        <li> Basics of SLAM and multi-view 3D reconstruction</li>
+                        <li> State-of-the-art methods</li>
+                        <li> Open challenges and new directions</li>
+                    </ul>
+                </td>
 
-        <td>  <b> Panel Discussion </b>
-        <br>
-            Host: Dr. Yulan Guo
-            <ul>
-            <li> Panelist introduction </li>
-            <li> Panelist presentations</li>
-            <li> Moderator-curated questions directed to the panelists</li>
-            <li> Questions from the audiences directed to the panelists</li>
-            <li> Virtue coffee break</li>
-            </ul>
-        </td>
-      </tr>
-      <tr>
-        <td> 11:50-12:00 </td>
-        <td> 06:50-07:00 </td>
-        <td> 20:50-21:00 </td>
-        <td> Acknowledgments </td>
-      </tr>
+            </tr>
+            <tr>
+                <td> 09:35-10:20</td>
+                <td> 05:35-06:20</td>
+                <td> 17:35-18:20</td>
+                <td> 18:35-19:20</td>
 
-    </table>
+
+                <td><b> 3D Point Cloud Semantic Segmentation </b>
+                    <br>
+                    Presenter: Mr. Qingyong Hu
+                    <ul>
+                        <li> Main challenges of 3D point cloud semantic segmentation</li>
+                        <li> How to perform 3D point cloud semantic segmentation</li>
+                        <li> Taxonomy: discretization, point and hybrid based algorithms</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td> 10:20-11:05</td>
+                <td> 06:20-07:05</td>
+                <td> 18:20-19:05</td>
+                <td> 19:20-20:05</td>
+
+                <td><b> 3D Point Cloud Instance Segmentation </b>
+                    <br>
+                    Presenter: Dr. Bo Yang
+                    <ul>
+                        <li> Why and what is 3D point cloud instance segmentation</li>
+                        <li> How to perform 3D point cloud instance segmentation</li>
+                        <li> Taxonomy: proposal-based and proposal free algorithms</li>
+                        <li> State-of-the-art algorithms</li>
+                        <li> Performance evaluation</li>
+                        <li> Summary and discussion</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td> 11:05-11:50</td>
+                <td> 07:05-07:50</td>
+                <td> 19:05-19:50</td>
+                <td> 20:05-20:50</td>
+
+                <td><b> Panel Discussion </b>
+                    <br>
+                    Host: Dr. Yulan Guo
+                    <ul>
+                        <li> Panelist introduction</li>
+                        <li> Panelist presentations</li>
+                        <li> Moderator-curated questions directed to the panelists</li>
+                        <li> Questions from the audiences directed to the panelists</li>
+                        <li> Virtue coffee break</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td> 11:50-12:00</td>
+                <td> 07:50-08:00</td>
+                <td> 19:50-20:00</td>
+                <td> 20:50-21:00</td>
+
+                <td> Acknowledgments</td>
+            </tr>
+
+        </table>
+        *Please click here  <a target="_blank"
+                                      href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=MXFlMnNzNW02NDNwc2RwNGIxaDYybW9hNzcgZ2ZrZGh1cWluZ3lvbmdAbQ&amp;tmsrc=gfkdhuqingyong%40gmail.com"><img
+            border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en-GB.gif"></a> to know hours in your
+        time-zone.
 
     </div>
 </div>
+
 
 </br>
 
