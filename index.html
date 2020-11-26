@@ -91,36 +91,39 @@
     <h2>Overview</h2>
     <div class="overview">
         <p>
-            With the rapid development of point-cloud acquisition techniques (<I>e.g.</I>, Microsoft Kinect) and
-            computing
-            devices, 3D data (point clouds, depth images, meshes) processing has become a rapidly growing research area
-            in
-            computer vision, pattern recognition and computer graphics. Extensive investigations have been conducted on
-            3D related topics, such as 3D modeling, 3D scene reconstruction/understanding,
-            3D object recognition, 3D face recognition, and 3D animation.
-            In this tutorial, we will mainly focus on point cloud reconstruction and segmentation.
-        </p>
-
-        <p>
-            Existing 3D point cloud segmentation methods can be broadly divided into two categories based on the
-            segmentation granularity, <I>i.e.</I>, semantic segmentation and instance segmentation methods.
-            Due to the unique properties (<I>i.e.</I>, unstructured, irregular, and orderless) of 3D point clouds,
-            it is still highly challenging to achieve fast and robust segmentation of 3D point clouds.
-            Recently, a large number of 3D point cloud segmentation algorithms have been proposed in literature.
-            The proposed tutorial will therefore present a comprehensive review and analysis of the state-of-the-art 3D
-            segmentation algorithms. The tutorial will also provide extensive performance evaluation results of the
-            state-of-the-art algorithms on several benchmark datasets, along with insightful discussions and analyses.
-            Moreover, a number of interesting 3D related applications will be introduced in the tutorial.
-            Finally, several directions for future work will be discussed.
+            With the rapid development of cheaper and smaller depth cameras and lidar sensors, there is an increasing
+            interest in scanning, processing and analysing real-world scenes in 3D. These scenes can range from
+            highly-detailed objects to city-scale environments, and efficiently processing and analysing these scans
+            lies at the epicentre of many computer vision applications, including autonomous driving, home robots and
+            UAVs.
 
         </p>
 
         <p>
-            The main objective of the tutorial is to stimulate <I>communication between researchers</I> from different
-            areas (including computer vision, computer graphics, and machine learning) and from different sectors
-            (<I>e.g.</I>, academia and industry). Particularly, this tutorial will bridge the gap between different
-            communities by presenting most existing 3D point cloud reconstruction and segmentation pipelines
-            in a unified framework.
+            Point clouds are a convenient and efficient way to represent 3D data for most applications. However, to be
+            able to use the point cloud data meaningfully, several necessary processing steps are needed to convert the
+            raw scanner data to complete, semantically annotated scans which can be used for decision making and
+            analysis. The two primary steps involved are:
+        <ul>
+            <li>Piecing together or reconstructing the raw scan data to form a complete point cloud of the scene;</li>
+            <li>Semantically meaningful entities in the point cloud through object detection, semantic or instance
+                segmentation.
+            </li>
+        </ul>
+        In this tutorial, we aim to give an overview of why point clouds are an essential representation for 3D data,
+        what applications point clouds can facilitate, and the techniques needed for point cloud reconstruction and
+        segmentation.
+
+
+        </p>
+
+        <p>
+            We expect the tutorial to be suitable for an audience of varying knowledge of point clouds / 3D vision. For
+            those who are going to work on an application related to point cloud or about to start research in this
+            topic, this can be a systematic introduction that points you to various existing works. For those who have
+            prior experience on point clouds, we are going to offer references to the most recent works to keep you up
+            to date, and there are code snippets offered for specific algorithms, which might be of your interest.
+
         </p>
     </div>
 </div>
@@ -230,7 +233,7 @@
 
                 <td><b> Panel Discussion </b>
                     <br>
-                    Host: Dr. Yulan Guo
+                    Host: Dr. Bo Yang & Qingyong Hu
                     <ul>
                         <li> Panelist introduction</li>
                         <li> Panelist presentations</li>
@@ -250,8 +253,8 @@
             </tr>
 
         </table>
-        *Please click here  <a target="_blank"
-                                      href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=MXFlMnNzNW02NDNwc2RwNGIxaDYybW9hNzcgZ2ZrZGh1cWluZ3lvbmdAbQ&amp;tmsrc=gfkdhuqingyong%40gmail.com"><img
+        *Please click here <a target="_blank"
+                              href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=MXFlMnNzNW02NDNwc2RwNGIxaDYybW9hNzcgZ2ZrZGh1cWluZ3lvbmdAbQ&amp;tmsrc=gfkdhuqingyong%40gmail.com"><img
             border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en-GB.gif"></a> to know hours in your
         time-zone.
 
